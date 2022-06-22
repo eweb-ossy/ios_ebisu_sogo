@@ -1,0 +1,42 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-webp": "^4.0.1",
+    "imagemin-svgo": "^9.0.0",
+    "path": "^0.12.7",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^5.72.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11",
+    "Android >= 4"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-inview": "^1.1.2",
+    "rellax": "^1.12.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.0.7"
+  }
+}

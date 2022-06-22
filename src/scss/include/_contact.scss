@@ -1,0 +1,93 @@
+.contact {
+    width: 100%;
+    background-color: #eaeaea;
+    .wrap {
+        display: flex;
+        align-items: center;
+        padding: 100px 0;
+        @include mq(tb) {
+            flex-wrap: wrap;
+        }
+        @include mq(sp) {
+            padding: 20px;
+        }
+        h2 {
+            font-size: 55px;
+            letter-spacing: 3px;
+            writing-mode: vertical-lr;
+            margin-right: 70px;
+            @include mq(tb) {
+                writing-mode: initial;
+                text-align: center;
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            span {
+                display: block;
+                font-size: 16px;    
+            }
+        }
+        a {
+            display: block;
+            width: 490px;
+            height: 140px;
+            background-color: #fff;
+            border-radius: 70px;
+            margin-right: 70px;
+            text-align: center;
+            @include mq(tb) {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            @include mq(sp) {
+                padding-left: 60px;
+            }
+            span {
+                display: block;
+            }
+        }
+        .tel {
+            font-size: 35px;
+            font-weight: 500;
+            padding-top: 30px;
+            background-image: url('../images/icon_phone.svg');
+            background-repeat: no-repeat;
+            background-position: 70px center;
+            background-size: 30px 33px;
+            position: relative;
+            @include mq(sp) {
+                background-position: 40px center;
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                width: 1px;
+                height: 90px;
+                top: 20px;
+                right: -34px;
+                background-color: #000;
+                @include mq(tb) {
+                    width: 0;
+                }
+            }
+            span {
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+        .mail {
+            font-size: 22px;
+            font-weight: 500;
+            padding-top: 55px;
+            background-image: url('../images/icon_mail.svg');
+            background-repeat: no-repeat;
+            background-position: 70px center;
+            background-size: 31px 23px;
+            @include mq(sp) {
+                background-position: 40px center;
+            }
+        }
+    }
+}

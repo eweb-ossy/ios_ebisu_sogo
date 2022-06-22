@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&family=Noto+Serif+JP:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&family=Noto+Serif+JP:wght@300;600&display=swap');
+
+$breakpoints: (
+    'pc': 'screen and (min-width: 1440px)',
+    'tb': 'screen and (max-width: 1439px)',
+    'sp': 'screen and (max-width: 999px)',
+) !default;
+@mixin mq($breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
+
+$color_text: #231815;
+
+$color_daichi: #825a17;
+$color_factory: #e6442b;
+$color_deli: #73a500;
+$color_dining: #910017;
+$color_liquor: #345b91;
+
+.for-sp {
+    display: none;
+    @include mq(sp) {
+        display: block;
+    }
+}
+.for-pc {
+    display: block;
+    @include mq(tb) {
+        display: none;
+    }
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    color: $color_text;
+}
+a {
+    text-decoration: none;
+    color: $color_text;
+}
+p {
+    line-height: 1.7;
+    letter-spacing: .1em;
+    span {
+        -webkit-text-combine: horizontal;
+        -ms-text-combine-horizontal: all;
+        text-combine-upright: all;
+    }
+}
+h1, h2, h3, a, .gothic {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+section, .mv {
+    width: calc(100vw - 130px);
+    margin-left: 130px;
+    @include mq(tb) {
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+.wrap {
+    max-width: 1370px;
+    margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+@include mq(pc) {
+    .fadein {
+        opacity: 0;
+    }
+    .fadein.is-animated {
+        animation-name: fadeIn;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 0s;
+    }
+    .fadein.is-animated.ani02 {
+        animation-delay: 0.1s;
+    }
+    .fadein.is-animated.ani03 {
+        animation-delay: 0.2s;
+    }
+    .fadein.is-animated.ani04 {
+        animation-delay: 0.3s;
+    }
+    .fadein.is-animated.ani05 {
+        animation-delay: 0.4s;
+    }
+    .fadein.is-animated.ani06 {
+        animation-delay: 0.5s;
+    }
+    .fadein.is-animated.ani07 {
+        animation-delay: 0.6s;
+    }
+    .fadein.is-animated.ani08 {
+        animation-delay: 0.7s;
+    }
+    .fadein.is-animated.ani09 {
+        animation-delay: 0.8s;
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
