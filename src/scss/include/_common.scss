@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&family=Noto+Serif+JP:wght@300;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&family=Noto+Serif+JP:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap');
 
 $breakpoints: (
     'pc': 'screen and (min-width: 1440px)',
@@ -51,7 +50,7 @@ p {
     }
 }
 h1, h2, h3, a, .gothic {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 section, .mv {
     width: calc(100vw - 130px);
