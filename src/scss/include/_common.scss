@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap');
+
+// font-family: 'Zen Kaku Gothic New', sans-serif;
+// font-family: 'Shippori Mincho B1', serif;
 
 $breakpoints: (
     'pc': 'screen and (min-width: 1440px)',
@@ -33,7 +36,7 @@ $color_liquor: #345b91;
 }
 
 body {
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
     color: $color_text;
 }
 a {
@@ -48,9 +51,6 @@ p {
         -ms-text-combine-horizontal: all;
         text-combine-upright: all;
     }
-}
-h1, h2, h3, a, .gothic {
-    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 section, .mv {
     width: calc(100vw - 130px);

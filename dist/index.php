@@ -20,9 +20,9 @@
     </div>
     <section class="info-place">
         <div class="wrap">
-            <h2 class=" fadein ani04 parallax">宮城県栗原市</h2>
-            <h3 class=" fadein ani05 parallax">自然と伝統、<br>魅力ある風土に育まれた、<br>愛情たっぷりの、<br>栗原の宝物。</h3>
-            <p class="gothic fadein ani06 parallax">宮城県の北西部に位置する栗原市。<br>雄大な栗駒山を望む山麓の里には<br class="for-pc">厳しくも優しい、自然を敬う文化が<br class="for-pc">連綿と培われてきました。<br>先祖代々守られてきた味、技、生活の知恵、<br class="for-pc">大切に引き継がれ耕されてきた田畑。<br>人々の輪と情熱が、多彩な伝統文化に<br class="for-pc">命を吹き込み、東北の厳しい気候が<br class="for-pc">おいしさに、いっそう磨きをかけます。<br>緑眩しく、時には雪も深まる自然の中、<br class="for-pc">たくましく育つ野菜やお米、果物、<br class="for-pc">そして、栄養をたっぷり蓄えた牛肉や豚肉。<br>大切に育んできたおいしさの源には、<br class="for-pc">栗原の大地と人々の物語が<br class="for-pc">ぎゅ〜っと詰まっているのです。</p>
+            <h2 class="fadein ani04 parallax">宮城県栗原市</h2>
+            <h3 class="fadein ani05 parallax">自然と伝統、<br>魅力ある風土に育まれた、<br>愛情たっぷりの、<br>栗原の宝物。</h3>
+            <p class="fadein ani06 parallax">宮城県の北西部に位置する栗原市。<br>雄大な栗駒山を望む山麓の里には<br class="for-pc">厳しくも優しい、自然を敬う文化が<br class="for-pc">連綿と培われてきました。<br>先祖代々守られてきた味、技、生活の知恵、<br class="for-pc">大切に引き継がれ耕されてきた田畑。<br>人々の輪と情熱が、多彩な伝統文化に<br class="for-pc">命を吹き込み、東北の厳しい気候が<br class="for-pc">おいしさに、いっそう磨きをかけます。<br>緑眩しく、時には雪も深まる自然の中、<br class="for-pc">たくましく育つ野菜やお米、果物、<br class="for-pc">そして、栄養をたっぷり蓄えた牛肉や豚肉。<br>大切に育んできたおいしさの源には、<br class="for-pc">栗原の大地と人々の物語が<br class="for-pc">ぎゅ〜っと詰まっているのです。</p>
             <div class="info-bg-img img01 fadein ani02"><img src="images/top_info_place_bg_01.png" alt="イラスト"></div>
             <div class="info-bg-img img02 fadein ani03"><img src="images/top_info_place_bg_02.png" alt="イラスト"></div>
         </div>
@@ -31,7 +31,7 @@
         <div class="wrap">
             <h2 class="fadein ani07 parallax">14種類の漢方飼料で育った<span>漢方和牛＆漢方三元豚</span></h2>
             <h3 class="fadein ani08 parallax">情熱がつながり、<br>生まれるおいしさ。<br>食べる人の健康を一番に考えた、<br>栗原発、唯一無二のブランド肉。</h3>
-            <p class="gothic fadein ani09 parallax">きめ細やかでやわらかい肉質、上質な脂、<br class="for-pc">コクのある旨みと、さっぱりとした後味。<br>関村牧場の「漢方和牛」「漢方三元豚」は、<br class="for-pc">おいしさと食べる人の健康を追求し<br class="for-pc">辿り着いた、唯一無二のブランド肉です。<br>この味わいと風味は、<span>14</span>&nbsp;種類のハーブを<br class="for-pc">ブレンドした関村牧場オリジナルの漢方飼料と、<br class="for-pc">牛たちがのびやかに育つ、栗原の澄んだ空気、水、<br class="for-pc">そして適度な運動を促す傾斜のある牧場があってこそ。<br>さらに、自然交配による繁殖から育成、<br class="for-pc">出荷までを、それぞれのスペシャリストが担当し、<br class="for-pc">人の目でしっかり観察することで<br class="for-pc">ストレスなく健康的に育て上げています。<br>飼料から育つ環境まで、試行錯誤を重ね<br class="for-pc">生まれたおいしさは、約21.3度〜22.8度<br class="for-pc">という体温でとける繊細な脂にも見ることができます。<br>頬張った瞬間にふわっとほどけ、<br class="for-pc">体内に脂肪が残りにくいと<br class="for-pc">食のプロも太鼓判を押す魅力の一つです。</p>
+            <p class="fadein ani09 parallax">きめ細やかでやわらかい肉質、上質な脂、<br class="for-pc">コクのある旨みと、さっぱりとした後味。<br>関村牧場の「漢方和牛」「漢方三元豚」は、<br class="for-pc">おいしさと食べる人の健康を追求し<br class="for-pc">辿り着いた、唯一無二のブランド肉です。<br>この味わいと風味は、<span>14</span>&nbsp;種類のハーブを<br class="for-pc">ブレンドした関村牧場オリジナルの漢方飼料と、<br class="for-pc">牛たちがのびやかに育つ、栗原の澄んだ空気、水、<br class="for-pc">そして適度な運動を促す傾斜のある牧場があってこそ。<br>さらに、自然交配による繁殖から育成、<br class="for-pc">出荷までを、それぞれのスペシャリストが担当し、<br class="for-pc">人の目でしっかり観察することで<br class="for-pc">ストレスなく健康的に育て上げています。<br>飼料から育つ環境まで、試行錯誤を重ね<br class="for-pc">生まれたおいしさは、約21.3度〜22.8度<br class="for-pc">という体温でとける繊細な脂にも見ることができます。<br>頬張った瞬間にふわっとほどけ、<br class="for-pc">体内に脂肪が残りにくいと<br class="for-pc">食のプロも太鼓判を押す魅力の一つです。</p>
             <div class="info-bg-img img01 fadein ani02"><img src="images/top_info_meat_bg_01.png" alt="イラスト"></div>
             <div class="info-bg-img img02 fadein ani03"><img src="images/top_info_meat_bg_02.png" alt="イラスト"></div>
             <div class="info-bg-img img03 fadein ani04"><img src="images/top_info_meat_bg_03.png" alt="イラスト"></div>
@@ -57,7 +57,7 @@
     </section>
     <section class="info-text">
         <div class="wrap">
-            <p class="gothic">私たち「ゑびすグループ」は、自然豊かな栗原で大切に育まれた漢方和牛・漢方三元豚を軸に、<br class="for-pc">「食から始まる暮らしの豊かさ」をお届けしてまいります。<br>飲食店をはじめ、加工食品や惣菜商品、お弁当のデリバリーサービスなど、<br class="for-pc">暮らしに寄り添う事業を展開し、日々の食事がもっと楽しく、より身近に、そして手軽に<br class="for-pc">「健康とおいしさ」から幸せなひと時をお届けできるよう、進み続けます。</p>
+            <p>私たち「ゑびすグループ」は、自然豊かな栗原で大切に育まれた漢方和牛・漢方三元豚を軸に、<br class="for-pc">「食から始まる暮らしの豊かさ」をお届けしてまいります。<br>飲食店をはじめ、加工食品や惣菜商品、お弁当のデリバリーサービスなど、<br class="for-pc">暮らしに寄り添う事業を展開し、日々の食事がもっと楽しく、より身近に、そして手軽に<br class="for-pc">「健康とおいしさ」から幸せなひと時をお届けできるよう、進み続けます。</p>
             <h2>健康と、おいしさで、<br class="for-sp">笑顔がつづく。</h2>
         </div>
     </section>
@@ -67,9 +67,9 @@
             <div class="block">
                 <div class="title-area daichi">
                     <div class="logo"><img src="images/logo_daichi_vertical_white.svg" alt="EBISU MEAT DAICHI"></div>
-                    <div class="title gothic">健康と、おいしさを、<span>「育てる」</span></div>
+                    <div class="title">健康と、おいしさを、<span>「育てる」</span></div>
                     <div class="image"><img src="images/logo_brand_column_white.svg" alt="漢方和牛＆漢方三元豚"></div>
-                    <p class="gothic">14種類の漢方飼料を与えて育てた健康と美味しいにこだわったブランド肉を育てています。</p>
+                    <p>14種類の漢方飼料を与えて育てた健康と美味しいにこだわったブランド肉を育てています。</p>
                     <div class="btn-area">
                         <a href="" class="btn">精肉卸売事業部サイトはこちら</a>
                     </div>
@@ -86,8 +86,8 @@
             <div class="block">
                 <div class="title-area factory">
                     <div class="logo"><img src="images/logo_factory_vertical_white.svg" alt="EBISU FOOD FACTORY"></div>
-                    <div class="title gothic">健康と、おいしさを、<span>「つくる」</span></div>
-                    <p class="gothic">この文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入ります</p>
+                    <div class="title">健康と、おいしさを、<span>「つくる」</span></div>
+                    <p>この文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入ります</p>
                     <div class="btn-area">
                         <a href="" class="btn">食品製造事業部サイトはこちら</a>
                     </div>
@@ -104,8 +104,8 @@
             <div class="block">
                 <div class="title-area deli">
                     <div class="logo"><img src="images/logo_deli_vertical_white.svg" alt="EBISU FOOD FACTORY"></div>
-                    <div class="title gothic">健康と、おいしさを、<span>「届ける」</span></div>
-                    <p class="gothic">この文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入ります</p>
+                    <div class="title">健康と、おいしさを、<span>「届ける」</span></div>
+                    <p>この文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入ります</p>
                     <div class="btn-area">
                         <a href="" class="btn">地域の台所サイトはこちら</a>
                     </div>
@@ -122,8 +122,8 @@
             <div class="block">
                 <div class="title-area dining">
                     <div class="logo"><img src="images/logo_dining_vertical_white.svg" alt="EBISU DINING"></div>
-                    <div class="title gothic">健康と、おいしさを、<span>「愉しむ」</span></div>
-                    <p class="gothic">この文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要</p>
+                    <div class="title">健康と、おいしさを、<span>「愉しむ」</span></div>
+                    <p>この文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要</p>
                     <div class="btn-area">
                         <a href="" class="btn">飲食サービス事業部サイトはこちら</a>
                     </div>
@@ -140,8 +140,8 @@
             <div class="block">
                 <div class="title-area liquor">
                     <div class="logo"><img src="images/logo_liquor_vertical_white.svg" alt="EBISU LIQUOR"></div>
-                    <div class="title gothic">健康と、おいしさを、<span>「嗜む」</span></div>
-                    <p class="gothic">この文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入ります</p>
+                    <div class="title">健康と、おいしさを、<span>「嗜む」</span></div>
+                    <p>この文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入ります</p>
                     <div class="btn-area">
                         <a href="" class="btn">えびす酒店はこちら</a>
                     </div>

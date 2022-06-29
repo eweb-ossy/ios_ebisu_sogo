@@ -221,6 +221,7 @@
         }
     }
     h2 {
+        font-family: 'Shippori Mincho B1', serif;
         font-size: 22px;
         letter-spacing: .3em;
         position: absolute;
@@ -607,8 +608,9 @@
                     }
                 }
                 p {
-                   font-size: 14px; 
-                   text-align: center;
+                    font-family: 'Shippori Mincho B1', serif;
+                    font-size: 14px; 
+                    text-align: center;
                 }
             }
         }
@@ -623,6 +625,7 @@
             }
         }
         p {
+            font-family: 'Shippori Mincho B1', serif;
             width: 100%;
             font-size: 14px; 
             text-align: center;

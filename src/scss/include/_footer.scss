@@ -97,6 +97,7 @@
                 }
                 .logo-text {
                     font-size: 11px;
+                    font-weight: 600;
                     margin-bottom: 1em;
                 }
                 &:nth-child(1) {
@@ -159,6 +160,7 @@
                     }
                 }
                 p {
+                    font-family: 'Shippori Mincho B1', serif;
                     font-size: 14px;
                     color: $color_text;
                     padding-left: 50px;
@@ -210,6 +212,7 @@
                 }
             }
             p {
+                font-family: 'Shippori Mincho B1', serif;
                 width: 554px;
                 margin-left: 30px;
                 font-size: 14px;
@@ -303,6 +306,7 @@
                 color: #808080;
             }
             p {
+                font-family: 'Shippori Mincho B1', serif;
                 font-size: 12px;
                 text-align: center;
                 @include mq(sp) {

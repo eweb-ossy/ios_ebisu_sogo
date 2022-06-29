@@ -1,7 +1,7 @@
 <nav class="nav">
     <div class="nav-sideheader">
         <div class="nav-btn">
-            <div id="nav_btn" class="btn gothic">
+            <div id="nav_btn" class="btn">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -26,7 +26,7 @@
             </a>
         </div>
     </div>
-    <div id="nav_menu" class="nav-menu gothic">
+    <div id="nav_menu" class="nav-menu">
         <div class="inner">
             <div class="menu-main">
                 <ul>
