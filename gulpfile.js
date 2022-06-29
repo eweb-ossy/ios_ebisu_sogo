@@ -46,14 +46,14 @@ const jsCompile = () =>
 
 const images = () =>
     src(paths.img.src)
-        .pipe(changed('src/images/'))
+        .pipe(changed(paths.img.dist))
         .pipe(plumber())
         .pipe(imagemin())
         .pipe(dest(paths.img.dist));
 
 const imageWebp = () => 
     src(paths.img.src)
-        .pipe(changed('src/images/'))
+        .pipe(changed(paths.img.dist))
         .pipe(webp())
         .pipe(dest(paths.img.dist));
 
