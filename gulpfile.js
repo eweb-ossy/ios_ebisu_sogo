@@ -10,6 +10,7 @@ const webpackStream = require("webpack-stream");
 const webpackConfig = require("./webpack.config");
 const webpack = require("webpack");
 const named = require('vinyl-named');
+const changed = require('gulp-changed');
 
 const paths = {
     css: {
@@ -45,12 +46,14 @@ const jsCompile = () =>
 
 const images = () =>
     src(paths.img.src)
+        .pipe(changed('src/images/'))
         .pipe(plumber())
         .pipe(imagemin())
         .pipe(dest(paths.img.dist));
 
 const imageWebp = () => 
     src(paths.img.src)
+        .pipe(changed('src/images/'))
         .pipe(webp())
         .pipe(dest(paths.img.dist));
 
