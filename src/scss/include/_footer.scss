@@ -26,7 +26,7 @@
     }
     &::after {
         position: absolute;
-        bottom: 0;
+        bottom: -1px;
         left: 0;
         content: '';
         width: 100vw;
@@ -41,6 +41,13 @@
         font-size: 15px;
         color: #fff;
         text-align: center;
+        @include mq(pc) {
+            position: absolute;
+            top: 600px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
         span {
             display: block;
             margin: 1em auto 0;
@@ -61,10 +68,14 @@
         width: 1400px;
         background-color: #fff;
         z-index: 2;
-        top: 500px;
-        left: 50%;
-        transform: translateX(-50%);
+        top: 1000px;
+        left: 0;
+        right: 0;
+        margin: auto;
         @include mq(tb) {
+            top: 500px;
+            left: 50%;
+            transform: translateX(-50%);
             width: calc(100vw - 40px);
         }
         .footer-info-top {
@@ -74,7 +85,7 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 height: auto;
-                border: 1px solid #808080;
+                border: 1px solid #e6e6e6;
             }
             @include mq(sp) {
                 grid-template-columns: repeat(2,1fr);
@@ -83,17 +94,17 @@
                 width: 280px;
                 padding-top: 60px;
                 text-align: center;
-                border-top: 1px solid #808080;
-                border-bottom: 1px solid #808080;
-                border-left: 1px solid #808080;
+                border-top: 1px solid #e6e6e6;
+                border-bottom: 1px solid #e6e6e6;
+                border-left: 1px solid #e6e6e6;
                 @include mq(tb) {
                     width: 100%;
                     padding: 30px 20px;
                     border: none;
-                    border-right: 1px solid #808080;
+                    border-right: 1px solid #e6e6e6;
                 }
                 &:last-child {
-                    border-right: 1px solid #808080;
+                    border-right: 1px solid #e6e6e6;
                 }
                 .logo-text {
                     font-size: 11px;
@@ -103,13 +114,13 @@
                 &:nth-child(1) {
                     color: $color_daichi;
                     @include mq(tb) {
-                        border-bottom: 1px solid #808080;
+                        border-bottom: 1px solid #e6e6e6;
                     }
                 }
                 &:nth-child(2) {
                     color: $color_factory;
                     @include mq(tb) {
-                        border-bottom: 1px solid #808080;
+                        border-bottom: 1px solid #e6e6e6;
                     }
                     @include mq(sp) {
                         border-right: none;
@@ -119,16 +130,16 @@
                     color: $color_deli;
                     @include mq(tb) {
                         border-right: none;
-                        border-bottom: 1px solid #808080;
+                        border-bottom: 1px solid #e6e6e6;
                     }
                     @include mq(sp) {
-                        border-right: 1px solid #808080;
+                        border-right: 1px solid #e6e6e6;
                     }
                 }
                 &:nth-child(4) {
                     color: $color_dining;
                     @include mq(sp) {
-                        border-bottom: 1px solid #808080;
+                        border-bottom: 1px solid #e6e6e6;
                         border-right: none;
                     }
                 }
@@ -173,9 +184,9 @@
         }
         .footer-info-middle {
             height: 178px;
-            border-bottom: 1px solid #808080;
-            border-left: 1px solid #808080;
-            border-right: 1px solid #808080;
+            border-bottom: 1px solid #e6e6e6;
+            border-left: 1px solid #e6e6e6;
+            border-right: 1px solid #e6e6e6;
             position: relative;
             display: flex;
             justify-content: center;
@@ -191,7 +202,7 @@
                 transform: translateX(-50%);
                 font-size: 19px;
                 font-weight: 500;
-                color: #808080;
+                color: #e6e6e6;
             }
             .logo {
                 width: 554px;
@@ -233,16 +244,16 @@
             .block-wrap {
                 display: flex;
                 position: relative;
-                border-left: 1px solid #808080;
+                border-left: 1px solid #e6e6e6;
                 @include mq(tb) {
                    width: 100%;
-                   border-right: 1px solid #808080;
+                   border-right: 1px solid #e6e6e6;
                 }
             }
             .block {
                 width: 350px;
                 height: 252px;
-                border-bottom: 1px solid #808080;
+                border-bottom: 1px solid #e6e6e6;
                 @include mq(tb) {
                     width: 100%;
                     height: auto;
@@ -293,8 +304,8 @@
             }
             .block.antena {
                 position: relative;
-                border-left: 1px solid #808080;
-                border-right: 1px solid #808080;
+                border-left: 1px solid #e6e6e6;
+                border-right: 1px solid #e6e6e6;
             }
             .title {
                 position: absolute;
@@ -303,7 +314,8 @@
                 transform: translateX(-50%);
                 font-size: 19px;
                 font-weight: 500;
-                color: #808080;
+                color: #e6e6e6;
+                z-index: 2;
             }
             p {
                 font-family: 'Shippori Mincho B1', serif;
@@ -317,7 +329,7 @@
     }
     .footer-bg-map {
         position: absolute;
-        top: 120px;
+        top: 720px;
         left: -20px;
         width: 380px;
         height: 402px;
@@ -331,6 +343,12 @@
             width: 100%;
         }
     }
+    .hover {
+        transition: 1s;
+        &:hover {
+            opacity: .4;
+        }
+    }
 }
 .copylight {
     width: 100%;
@@ -338,6 +356,6 @@
     background-color: #000;
     text-align: center;
     font-size: 13px;
-    color: #808080;
+    color: #e6e6e6;
     padding-top: 234px;
 }

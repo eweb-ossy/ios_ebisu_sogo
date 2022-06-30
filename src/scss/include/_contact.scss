@@ -36,6 +36,11 @@
             border-radius: 70px;
             margin-right: 70px;
             text-align: center;
+            transition: 1s;
+            position: relative;
+            &:hover {
+                opacity: .5;
+            }
             @include mq(tb) {
                 width: 100%;
                 margin-right: 0;

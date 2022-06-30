@@ -28,14 +28,31 @@ import Rellax from 'rellax';
 // slider 
 $('#slider_info').slick({
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 0,
+    speed: 5000,
+    cssEase: "linear",
+    swipe: false,
     arrows: false,
     dots: false,
     slidesToShow: 4,
     slidesToScroll: 1,
+    pauseOnFocus: false,
+    pauseOnHover: false,
     responsive: [
         {
             breakpoint: 1440,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 1000,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 600,
             settings: {
                 slidesToShow: 1,
             }
@@ -49,40 +66,40 @@ $('#slider_daichi').slick({
     autoplaySpeed: 3000,
     arrows: false,
     dots: false,
-    // fade: true,
-    // cssEase: 'linear'
+    fade: true,
+    cssEase: 'linear'
 });
 $('#slider_factory').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
     dots: false,
-    // fade: true,
-    // cssEase: 'linear'
+    fade: true,
+    cssEase: 'linear'
 });
 $('#slider_deli').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
     dots: false,
-    // fade: true,
-    // cssEase: 'linear'
+    fade: true,
+    cssEase: 'linear'
 });
 $('#slider_dining').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
     dots: false,
-    // fade: true,
-    // cssEase: 'linear'
+    fade: true,
+    cssEase: 'linear'
 });
 $('#slider_liquor').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
     dots: false,
-    // fade: true,
-    // cssEase: 'linear'
+    fade: true,
+    cssEase: 'linear'
 });
 
 function mvSlider() {

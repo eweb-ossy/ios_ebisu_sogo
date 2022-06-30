@@ -411,46 +411,50 @@
 
 // corporate 
 .corporate {
-    .wrap {
-        h2 {
-            display: block;
-            text-align: center;
-            font-size: 34px;
-            font-weight: 500;
-            color: #b0b0b0;
-            padding-bottom: 160px;
-            position: relative;
-            &::after {
-                content: '';
-                position: absolute;
-                width: 1px;
-                height: 140px;
-                background-color: #787878;
-                bottom: 0;
-                left: 50%;
-                transform: translate(-50%, 0);
-            }
-            span {
-                display: block;
-                padding-top: 1em;
-                font-size: 17px;
-                font-weight: 300;
-            }
+    h2 {
+        display: block;
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #b0b0b0;
+        padding-bottom: 160px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 140px;
+            background-color: #787878;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
         }
-        .block {
-            display: flex;
-            width: 100%;
+        span {
+            display: block;
+            padding-top: 1em;
+            font-size: 17px;
+            font-weight: 300;
+        }
+    }
+    .row {
+        width: calc(100vw - 130px);
+        display: flex;
+        height: 900px;
+        @include mq(tb) {
+            width: 100vw;
+            flex-wrap: wrap;
+            height: auto;
+        }
+        .title-area {
+            width: 43%;
             @include mq(tb) {
-                flex-wrap: wrap;
+                width: 100vw;
+                height: auto;
+                padding: 50px 20px 100px;
             }
-            .title-area {
-                width: 500px;
-                height: 900px;
-                @include mq(tb) {
-                    width: 100vw;
-                    height: auto;
-                    padding: 50px 20px 100px;
-                }
+            .inner {
+                max-width: 500px;
+                margin: 0 auto; 
                 .logo {
                     margin-top: 120px;
                     margin-bottom: 30px;
@@ -479,7 +483,7 @@
                         height: 40px;
                         @include mq(tb) {
                             height: auto;
-                            width: 90vw;
+                            // width: 90vw;
                             max-height: 40px;
                         }
                     }
@@ -505,6 +509,7 @@
                         border: 1px solid #fff;
                         border-radius: 30px;
                         position: relative;
+                        transition: 1s;
                         &::after {
                             position: absolute;
                             top: 25px;
@@ -512,43 +517,139 @@
                             content: '';
                             width: 17px;
                             height: 25px;
-                            background-image: url('../images/icon_arrow.svg?sanitize=true');
-                            background-repeat: no-repeat;
-                            background-size: contain;
+                            mask-image: url('../images/icon_arrow.svg?sanitize=true');
+                            mask-repeat: no-repeat;
+                            mask-size: contain;
+                            background-color: #fff;
+                            transition: 1s;
                         }
                     }
                 }
             }
-            .daichi {
+        }
+        .img-area {
+            width: 57%;
+            background-color: #ccc;
+            margin: 0;
+            padding: 0;
+            line-height: 0;
+            @include mq(tb) {
+                width: 100vw;
+            }
+            .slide {
+                width: 100%;
+                height: 900px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin: 0;
+                padding: 0;
+                line-height: 0;
+            }
+        }
+    }
+    .row.daichi {
+        .title-area {
+            background-color: $color_daichi;
+            .btn-area .btn:hover {
+                color: $color_daichi;
+                background-color: #fff;
+                border-color: $color_daichi;
+            }
+            .btn-area .btn:hover::after {
                 background-color: $color_daichi;
             }
-            .factory {
+        }
+        .img-area {
+            .img1 {
+                background-image: url('../images/top_corporate_daichi_photo_01.jpg');
+            }
+            .img2 {
+                background-image: url('../images/top_corporate_photo_none.png');
+            }
+        }
+    }
+    .row.factory {
+        .title-area {
+            background-color: $color_factory;
+            .btn-area .btn:hover {
+                color: $color_factory;
+                background-color: #fff;
+                border-color: $color_factory;
+            }
+            .btn-area .btn:hover::after {
                 background-color: $color_factory;
             }
-            .deli {
+        }
+        .img-area {
+            .img1 {
+                background-image: url('../images/top_corporate_factory_photo_01.jpg');
+            }
+            .img2 {
+                background-image: url('../images/top_corporate_photo_none.png');
+            }
+        }
+    }
+    .row.deli {
+        .title-area {
+            background-color: $color_deli;
+            .btn-area .btn:hover {
+                color: $color_deli;
+                background-color: #fff;
+                border-color: $color_deli;
+            }
+            .btn-area .btn:hover::after {
                 background-color: $color_deli;
             }
-            .dining {
+        }
+        .img-area {
+            .img1 {
+                background-image: url('../images/top_corporate_del_photo_01.jpg');
+            }
+            .img2 {
+                background-image: url('../images/top_corporate_photo_none.png');
+            }
+        }
+    }
+    .row.dining {
+        .title-area {
+            background-color: $color_dining;
+            .btn-area .btn:hover {
+                color: $color_dining;
+                background-color: #fff;
+                border-color: $color_dining;
+            }
+            .btn-area .btn:hover::after {
                 background-color: $color_dining;
             }
-            .liquor {
+        }
+        .img-area {
+            .img1 {
+                background-image: url('../images/top_corporate_dining_photo_01.jpg');
+            }
+            .img2 {
+                background-image: url('../images/top_corporate_photo_none.png');
+            }
+        }
+    }
+    .row.liquor {
+        .title-area {
+            background-color: $color_liquor;
+            .btn-area .btn:hover {
+                color: $color_liquor;
+                background-color: #fff;
+                border-color: $color_liquor;
+            }
+            .btn-area .btn:hover::after {
                 background-color: $color_liquor;
             }
-            .img-area {
-                width: 870px;
-                height: 900px;
-                line-height: 0;
-                @include mq(tb) {
-                    width: 100vw;
-                    height: auto;
-                }
-                .slide {
-                    width: 100%;
-                    img {
-                        width: 100%;    
-                        margin: 0;
-                    }
-                }
+        }
+        .img-area {
+            .img1 {
+                background-image: url('../images/top_corporate_liquor_photo_01.jpg');
+            }
+            .img2 {
+                background-image: url('../images/top_corporate_photo_none.png');
             }
         }
     }
@@ -629,7 +730,14 @@
             width: 100%;
             font-size: 14px; 
             text-align: center;
-         }
+        }
+        .hover {
+            cursor: pointer;
+            transition: 1s;
+            &:hover {
+                opacity: .4;
+            }
+        }
     }
 }
 
@@ -663,6 +771,11 @@
                 border-top: 1px solid #e6e6e6;
                 padding: 45px 30px;
                 position: relative;
+                background-color: #fff;
+                transition: 1s;
+                &:hover {
+                    background-color: #f9f9f9;
+                }
                 @include mq(sp) {
                     padding: 1.5em 50px 1.5em 0;
                 }
@@ -747,6 +860,15 @@
                 border: 1px solid #000;
                 border-radius: 30px;
                 position: relative;
+                background-color: #fff;
+                transition: 1s;
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                    &::after {
+                        background-color: #fff;
+                    }
+                }
                 &::after {
                     position: absolute;
                     content: '';
@@ -758,6 +880,7 @@
                     background-color: #231815;
                     mask-image: url('../images/icon_arrow.svg?sanitize=true');
                     mask-repeat: no-repeat;
+                    transition: 1s;
                 }
             }
         }

@@ -145,6 +145,13 @@
                 align-items: center;
                 width: 100%;
                 height: 94px;
+                background-color: #fff;
+                transition: .3s;
+                @include mq(pc) {
+                    &:hover {
+                        background-color: #dadada;
+                    }
+                }
                 @include mq(tb) {
                     height: 60px;
                 }
