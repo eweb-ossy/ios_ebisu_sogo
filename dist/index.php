@@ -40,19 +40,34 @@
     </section>
     <section id="slider_info" class="info-slider">
         <div class="slide">
-            <img src="images/top_info_slider_photo_01.jpg" alt="">
+            <img src="images/top_info_slider_photo_01.png" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_info_slider_photo_02.jpg" alt="">
+            <img src="images/top_info_slider_photo_02.png" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_info_slider_photo_03.jpg" alt="">
+            <img src="images/top_info_slider_photo_03.png" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_info_slider_photo_04.jpg" alt="">
+            <img src="images/top_info_slider_photo_04.png" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_info_slider_photo_05.jpg" alt="">
+            <img src="images/top_info_slider_photo_05.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/top_info_slider_photo_06.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/top_info_slider_photo_07.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/top_info_slider_photo_08.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/top_info_slider_photo_09.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/top_info_slider_photo_10.png" alt="">
         </div>
     </section>
     <section class="info-text">
