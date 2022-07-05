@@ -12,7 +12,7 @@
                 <picture>
                     <source media="(min-width: 1440px)" srcset="images/logo_sogo_vertical_color.svg">
                     <source media="(max-width: 1439px)" srcset="images/logo_sogo_column_color.svg">
-                    <img src="images/logo_sogo_vertical_color.svg" alt="EBISU GROUP">
+                    <img src="images/logo_sogo_vertical_color.svg" loading="lazy" alt="EBISU GROUP">
                 </picture>
             </a>
         </div>
@@ -21,7 +21,7 @@
                 <picture>
                     <source media="(min-width: 1440px)" srcset="images/nav_contact_img.svg">
                     <source media="(max-width: 1439px)" srcset="images/nav_contact_img_sp.svg">
-                    <img src="images/nav_contact_img.svg" alt="CONTACT">
+                    <img src="images/nav_contact_img.svg" loading="lazy" alt="CONTACT">
                 </picture>
             </a>
         </div>
