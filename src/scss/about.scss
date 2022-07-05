@@ -1,0 +1,748 @@
+@import "include/reset";
+@import "include/common";
+@import "include/animation";
+@import "include/nav";
+@import "include/contact";
+@import "include/footer";
+
+.mv {
+    @include mq(tb) {
+        margin-top: 60px;
+    }
+    .about-header {
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        background-color: #fff;
+        padding: 120px 70px 0;
+        @include mq(tb) {
+            height: auto;
+            padding: 10vw 8vw;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 44px;
+            font-weight: 600;
+            @include mq(tb) {
+                font-size: 6.5vw;
+            }
+            span {
+                display: block;
+                font-size: 18px;
+                margin-top: 2em;
+                padding-left: 2.5em;
+                position: relative;
+                line-height: 1;
+                @include mq(tb) {
+                    font-size: 2.24vw;
+                    margin-bottom: 3em;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    width: 35px;
+                    height: 2px;
+                    background-color: #d34c31;
+                    @include mq(sp) {
+                        width: 27px;
+                    }
+                }
+            }
+        }
+        .about-nav {
+            ul {
+                @include mq(tb) {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                li {
+                    margin-bottom: 1.5em;
+                    @include mq(tb) {
+                        margin-right: 5vw;
+                    }
+                    a {
+                        font-size: 15px;
+                        font-weight: 600;
+                        display: block;
+                        padding-left: 1.66em;
+                        line-height: 1;
+                        position: relative;
+                        @include mq(tb) {
+                            font-size: 3.73vw;
+                        }
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            top: 5px;
+                            left: 0;
+                            width: 13px;
+                            height: 8px;
+                            mask-image: url('../images/icon_arrow.svg');
+                            mask-repeat: no-repeat;
+                            mask-size: contain;
+                            background-color: #d34c31;
+                            transform: rotate(90deg);
+                            @include mq(tb) {
+                                width: 3.46vw;
+                                height: calc(3.46vw * 0.636);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .breadcrumblist {
+        @include mq(tb) {
+            display: none;
+        }
+        ul {
+            display: flex;
+            padding: 20px 0 20px 70px;
+            li {
+                list-style-type: none;
+                &:not(:last-child) {
+                    margin-right: 3em;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 8px;
+                        right: -1.5em;
+                        width: 6px;
+                        height: 9px;
+                        mask-image: url('../images/icon_arrow2.svg');
+                        mask-repeat: no-repeat;
+                        mask-size: contain;
+                        mask-position: center;
+                        background-color: #000;
+                    }
+                }
+                a {
+                    font-size: 12px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+    .about-img {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// our business 
+.ourbusiness {
+    .inner {
+        width: 100%;
+        padding: 100px 0;
+        text-align: center;
+        @include mq(tb) {
+            padding: 18.1vw 8vw;
+        }
+        h2 {
+            font-size: 34px;
+            font-weight: 600;
+            color: #787878;
+            margin-bottom: 100px;
+            @include mq(tb) {
+                font-size: 6.46vw;
+                margin-bottom: 18.1vw;
+            }
+            span {
+                display: block;
+                font-size: 17px;
+                margin-top: 1em;
+                @include mq(tb) {
+                    font-size: 1.92vw;
+                }
+            }
+        }
+        p {
+            width: 760px;
+            font-size: 16px;
+            text-align: left;
+            margin: 0 auto;
+            @include mq(tb) {
+                width: 100%;
+            }
+        }
+        .title {
+            font-size: 44px;
+            font-weight: 600;
+            margin: 70px 0;
+            @include mq(tb) {
+                font-size: 4.8vw;
+            }
+        }
+        .logo-sogo {
+            width: 166px;
+            height: 255px;
+            margin: 0 auto 35px;
+            @include mq(tb) {
+                width: 33.6vw;
+                max-width: 166px;
+                height: calc(33.6vw * 1.53);
+                max-height: 225px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .line-img {
+            width: 995px;
+            height: 167px;
+            margin: 0 auto 50px;
+            @include mq(tb) {
+                display: none;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .business-links {
+            width: 1140px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            @include mq(tb) {
+                margin-top: 18.1vw;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                row-gap: 20px;
+            }
+            .block {
+                position: relative;
+                height: 380px;
+                transition: 1s;
+                &:hover {
+                    opacity: .5;
+                }
+                .text {
+                    font-size: 17px;
+                    font-weight: 600;
+                    padding-bottom: 1.5em;
+                    @include mq(tb) {
+                        font-size: 1.92vw;
+                    }
+                    span {
+                        display: block;
+                        font-size: 35px;
+                        letter-spacing: .1em;
+                        @include mq(tb) {
+                            font-size: 6.46vw;
+                        }
+                    }
+                }
+                .caption {
+                    font-size: 14px;
+                    font-weight: 600;
+                    @include mq(tb) {
+                        font-size: 2.8vw;
+                    }
+                }
+                .icon-arrow {
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: #dadada;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 50px;
+                        height: 50px;
+                        mask-image: url('../images/icon_arrow.svg');
+                        mask-repeat: no-repeat;
+                        mask-position: center;
+                        mask-size: 14px;
+                        background-color: #fff;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+            .daichi img {
+                padding-bottom: 40px;
+                width: 115px;
+            }
+            .factory img {
+                padding-bottom: 20px;
+                width: 97px;
+            }
+            .deli img {
+                padding-bottom: 40px;
+                width: 95px;
+            }
+            .dining img {
+                padding-bottom: 40px;
+                width: 96px;
+            }
+            .liquor img {
+                padding-bottom: 40px;
+                width: 96px;
+            }
+        }
+    }
+}
+
+// section brand-info 
+.brand-info {
+    .inner {
+        width: 100%;
+        padding: 150px 0 190px;
+        text-align: center;
+        h2 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #b0b0b0;
+        }
+        .logo {
+            margin: 0 auto;
+            padding: 40px 0;
+            width: 645px;
+            @include mq(tb) {
+                width: calc(100vw - 16vw);
+                padding: 8vw 0 0;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        p {
+            margin: 0 auto;
+            width: 660px;
+            text-align: left;
+            font-size: 16px;
+            padding-bottom: 60px;
+            @include mq(tb) {
+                width: 100vw;
+                padding: 8vw;
+            }
+        }
+        .brand-info-img {
+            width: 100%;
+            source, img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// section brand 
+section.brand {
+    .inner {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 150px;
+        @include mq(tb) {
+            flex-direction: column;
+        }
+        .brand-info-text {
+            width: 310px;
+            text-align: center;
+            @include mq(tb) {
+                width: 100vw;
+                padding: 8vw;
+            }
+            .logo {
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 15px;
+                padding: 3em 0;
+                text-align: left;
+            }
+            a {
+                margin: 0 auto;
+                display: inline-block;
+                padding: 1em 4em 1em 2em;
+                border: 1px solid #231815;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 24px;
+                background-color: #fff;
+                position: relative;
+                transition: 1s;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: 1.5em;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                    width: 14px;
+                    height: 6px;
+                    background-color: #231815;
+                    mask-image: url('../images/icon_arrow.svg');
+                    mask-repeat: no-repeat;
+                    mask-size: contain;
+                    transition: 1s;
+                }
+                &:hover {
+                    background-color: #231815;
+                    color: #fff;
+                    &::after {
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+        .daichi {
+            .logo {
+                color: $color_daichi;
+                height: 124px;
+                background-image: url('../images/logo_daichi_column_color.svg');
+                background-size: 272px;
+            }
+        }
+        .factory {
+            .logo {
+                color: $color_factory;
+                height: 123px;
+                background-image: url('../images/logo_factory_column_color.svg');
+                background-size: 228px;
+            }
+        }
+        .deli {
+            .logo {
+                color: $color_deli;
+                height: 124px;
+                background-image: url('../images/logo_deli_column_color.svg');
+                background-size: 250px;
+            }
+        }
+        .dining {
+            .logo {
+                color: $color_dining;
+                height: 124px;
+                background-image: url('../images/logo_dining_column_color.svg');
+                background-size: 248px;
+            }
+        }
+        .liquor {
+            .logo {
+                color: $color_liquor;
+                height: 124px;
+                background-image: url('../images/logo_liquor_column_color.svg');
+                background-size: 248px;
+            }
+        }
+        .brand-image {
+            width: 58.39%;
+            height: calc((100vw - 130px) * 0.5839 * 0.625);
+            @include mq(tb) {
+                width: 100vw;
+                height: calc(100vw * 0.625);
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+section.brand.img-right {
+    .inner {
+        .brand-info-text {
+            margin-right: 125px;
+            @include mq(tb) {
+                margin-right: 0;
+            }
+        }
+        @include mq(tb) {
+            .brand-image {
+                padding-left: 8vw;
+            }
+        }
+    }
+}
+section.brand.img-left {
+    .inner {
+        flex-direction: row-reverse;
+        @include mq(tb) {
+            flex-direction: column;
+        }
+        .brand-info-text {
+            margin-left: 125px;
+            @include mq(tb) {
+                margin-left: 0;
+            }
+        }
+        @include mq(tb) {
+            .brand-image {
+                padding-right: 8vw;
+            }
+        }
+    }
+}
+
+// section message 
+section.message {
+    .inner {
+        width: 100%;
+        display: flex;
+        margin-bottom: 100px;
+        @include mq(tb) {
+            flex-direction: column;
+        }
+        .message-text {
+            padding: 140px 110px;
+            background-color: #f0f0f0;
+            width: 57%;
+            height: calc((100vw - 130px) * 0.43 * 1.617);
+            @include mq(tb) {
+                width: 100vw;
+                height: auto;
+                padding: 16vw 8vw;
+            }
+            h2 {
+                text-align: center;
+                font-size: 34px;
+                font-weight: 600;
+                color: #787878;
+                margin-bottom: 90px;
+                @include mq(tb) {
+                    font-size: 6.46vw;
+                    margin-bottom: 18.1vw;
+                }
+                span {
+                    display: block;
+                    margin-top: 1em;
+                    font-size: 17px;
+                    @include mq(tb) {
+                        font-size: 1.92vw;
+                    }
+                }
+            }
+            p {
+                font-size: 15px;
+                margin-bottom: 90px;
+            }
+            .ceo {
+                font-family: 'Shippori Mincho B1', serif;
+                text-align: right;
+                font-size: 17px;
+                font-weight: 600;
+                @include mq(tb) {
+                    text-align: center;
+                }
+                span {
+                    font-size: 25px;
+                    margin-left: 1em;
+                }
+            }
+        }
+        .message-photo {
+            width: 43%;
+            height: calc((100vw - 130px) * 0.43 * 1.617);
+            @include mq(tb) {
+                width: 100vw;
+                height: auto;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// section profile 
+section.profile {
+    .inner {
+        margin: 0 auto;
+        padding: 90px 0 230px;
+        width: calc(100vw - 390px);
+        @include mq(tb) {
+            margin: 0;
+            width: 100vw;
+            padding: 16vw 8vw;
+        }
+        h2 {
+            text-align: center;
+            font-size: 34px;
+            font-weight: 600;
+            color: #989989;
+            margin-bottom: 70px;
+            @include mq(tb) {
+                font-size: 6.46vw;
+                margin-bottom: 18.1vw;
+            }
+            span {
+                display: block;
+                font-size: 17px;
+                margin-top: .8em;
+                @include mq(tb) {
+                    font-size: 1.92vw;
+                }
+            }
+        }
+        table {
+            width: 100%;
+            margin-bottom: 50px;
+            tr {
+                border-top: 1px solid #cecece;
+                &:first-child {
+                    border-top: 1px solid #000;
+                }
+                &:last-child {
+                    border-bottom: 1px solid #cecece;
+                }
+                th {
+                    width: 23%;
+                    font-weight: 600;
+                }
+                td {
+                    width: 77%;
+                }
+                th, td {
+                    padding: 1em;
+                    font-size: 16px;
+                    line-height: 1.8;
+                    text-align: left;
+                    @include mq(tb) {
+                        font-size: 2vw;
+                    }
+                }
+            }
+        }
+        .title {
+            text-align: left;
+            font-size: 24px;
+            font-weight: 600;
+            color: #787878;
+            margin-bottom: 1em;
+            @include mq(tb) {
+                font-size: 4vw;
+            }
+        }
+    }
+}
+
+// section history 
+section.history {
+    .inner {
+        background-color: #f0f0f0;
+        padding: 120px 165px 0;
+        margin-bottom: 200px;
+        @include mq(tb) {
+            padding: 16vw 8vw 0;
+            margin-bottom: 16vw;
+        }
+        h2 {
+            font-size: 34px;
+            font-weight: 600;
+            color: #989898;
+            text-align: center;
+            margin-bottom: 75px;
+            @include mq(tb) {
+                font-size: 6.46vw;
+                margin-bottom: 18.1vw;
+            }
+            span {
+                display: block;
+                font-size: 17px;
+                margin-top: 1em;
+                @include mq(tb) {
+                    font-size: 1.92vw;
+                }
+            }
+        }
+        .history-area {
+            .block {
+                display: flex;
+                @include mq(tb) {
+                    flex-direction: column;
+                    padding-left: 34px;
+                    border-left: 1px solid #fff;
+                }
+                @include mq(pc) {
+                    div {
+                        padding: 1em 0;
+                        font-size: 16px;
+                        line-height: 1;
+                    }
+                }
+                .date, .line {
+                    font-weight: 600;
+                    width: 160px;
+                    position: relative;
+                    @include mq(tb) {
+                        width: 100%;
+                    }
+                    @include mq(pc) {
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            right: 2em;
+                            width: 1px;
+                            height: 3em;
+                            background-color: #fff;
+                        }
+                    }
+                }
+                .date {
+                    @include mq(tb) {
+                        padding: 2em 0 1em;
+                        font-size: 1.92vw;
+                    }
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 50%;
+                        right: 26px;
+                        transform: translate(0, -50%);
+                        width: 12px;
+                        height: 12px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        @include mq(tb) {
+                            top: 2em;
+                            right: auto;
+                            left: -40px;
+                            transform: translate(0, 0);
+                        }
+                    }
+                }
+                @include mq(tb) {
+                    .item {
+                        margin-bottom: .8em;
+                        font-size: 1.92vw;
+                    }
+                }
+            }
+            .block.space {
+                width: 160px;
+                height: 125px;
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    right: 2em;
+                    width: 1px;
+                    height: 125px;
+                    background-color: #fff;
+                    @include mq(tb) {
+                        width: 0;
+                    }
+                }
+            }
+        }
+    }
+}

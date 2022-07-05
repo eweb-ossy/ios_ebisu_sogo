@@ -141,7 +141,7 @@ function getWindowWidth() {
 let windowWidth = getWindowWidth();
 $(window).on('resize', function() {
     windowWidth = getWindowWidth();
-    parallax();
+    // parallax();
 });
 
 // let scroll = true;

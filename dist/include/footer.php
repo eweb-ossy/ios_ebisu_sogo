@@ -1,6 +1,11 @@
 <footer class="footer">
-    <div class="footer-logo parallax">健康と、おいしさで、笑顔がつづく。<span>EBISU GROUP</span></div>
-    <div class="footer-info parallax">
+    <div class="top-border"></div>
+    <div class="footer-bg-img">
+        <img src="images/footer_bg_photo.jpg" alt="">
+    </div>
+    <div class="bottom-border"></div>
+    <div class="footer-logo ">健康と、おいしさで、笑顔がつづく。<span>EBISU GROUP</span></div>
+    <div class="footer-info">
         <div class="footer-info-top">
             <div class="block">
                 <div class="hover">
@@ -79,6 +84,6 @@
             </div>
         </div>
     </div>
-    <div class="footer-bg-map parallax"><img src="images/footer_map.svg" alt=""></div>
+    <div class="footer-bg-map"><img src="images/footer_map.svg" alt=""></div>
 </footer>
 <div class="copylight">&copy; EBISU Group</div>

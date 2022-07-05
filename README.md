@@ -1,3 +1,5 @@
 # IOS えびすグループ総合サイト  
   
-[プレビュー](https://eweb-ossy.github.io/ios_ebisu_sogo/dist/)  
+## プレビュー
+[TOP](https://eweb-ossy.github.io/ios_ebisu_sogo/dist/)  
+[about](https://eweb-ossy.github.io/ios_ebisu_sogo/dist/about.html)  
