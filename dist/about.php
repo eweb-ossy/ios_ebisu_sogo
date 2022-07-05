@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/about.css?<?= time() ?>">
 </head>
 <body>
-    <?php require_once('include/nav.php'); ?>
+    <?php require('include/nav.php'); ?>
     <div class="mv">
         <div class="about-header">
             <h1>ゑびすグループについて<span>About EBISU Group</span></h1>
@@ -312,8 +312,8 @@
         </div>
     </section>
 
-    <?php require_once('include/contact.php'); ?>
-    <?php require_once('include/footer.php'); ?>
+    <?php require('include/contact.php'); ?>
+    <?php require('include/footer.php'); ?>
     <script src="js/about.js?<?= time() ?>"></script>
 </body>
 </html>

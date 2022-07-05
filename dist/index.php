@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/index.css?<?= time() ?>">
 </head>
 <body>
-    <?php require_once('include/nav.php'); ?>
+    <?php require('include/nav.php'); ?>
     <div class="mv">
         <h1 class="mv-logo">健康と、おいしさで、笑顔がつづく。<span>EBISU GROUP</span></h1>
         <ul id="mv_slide" class="slide-wrap">
@@ -225,8 +225,8 @@
         </div>
     </section>
 
-    <?php require_once('include/contact.php'); ?>
-    <?php require_once('include/footer.php'); ?>
+    <?php require('include/contact.php'); ?>
+    <?php require('include/footer.php'); ?>
     <script src="js/index.js?<?= time() ?>"></script>
 </body>
 </html>
