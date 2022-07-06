@@ -100,7 +100,7 @@
                 <div class="inner">
                     <div class="logo"><img src="images/logo_factory_vertical_white.svg" loading="lazy" alt="EBISU FOOD FACTOR"></div>
                     <div class="title">健康と、おいしさを、<span>「つくる」</span></div>
-                    <p>この文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入りますこの文章はダミーです食品製造部の概要が入ります</p>
+                    <p>宮城県栗原の地元食材にこだわり、料理人の視点を活かした商品開発を強みとするEBISU FOOD FACTORYの、商品を「つくる」一面をご紹介。</p>
                     <div class="btn-area">
                         <a href="" class="btn">食品製造事業部サイトはこちら</a>
                     </div>
@@ -116,7 +116,7 @@
                 <div class="inner">
                     <div class="logo"><img src="images/logo_deli_vertical_white.svg" loading="lazy" alt="EBISU FOOD FACTORY"></div>
                     <div class="title">健康と、おいしさを、<span>「届ける」</span></div>
-                    <p>この文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入りますこの文章はダミーですゑびすデリの概要が入ります</p>
+                    <p>地域の台所として、お気軽にご注文いただけるEBISU DELI。漢方和牛や漢方三元豚、旬の食材を使用した、彩り豊かなお弁当やオードブルなどを幅広くお届け。</p>
                     <div class="btn-area">
                         <a href="" class="btn">地域の台所サイトはこちら</a>
                     </div>
@@ -132,7 +132,7 @@
                 <div class="inner">
                     <div class="logo"><img src="images/logo_dining_vertical_white.svg" loading="lazy" alt="EBISU DINING"></div>
                     <div class="title">健康と、おいしさを、<span>「愉しむ」</span></div>
-                    <p>この文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要が入りますこの文章はダミーです飲食事業部の概要</p>
+                    <p>おいしいひと時を上質な空間で楽しめるEBISU DINING。漢方和牛や漢方三元豚、栗原や東北の野菜、魚介のおいしさを最大限に引き出した料理をどうぞ。</p>
                     <div class="btn-area">
                         <a href="" class="btn">飲食サービス事業部サイトはこちら</a>
                     </div>
@@ -148,7 +148,7 @@
                 <div class="inner">
                     <div class="logo"><img src="images/logo_liquor_vertical_white.svg" loading="lazy" alt="EBISU LIQUOR"></div>
                     <div class="title">健康と、おいしさを、<span>「嗜む」</span></div>
-                    <p>この文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入りますこの文章はダミーですゑびす酒店の概要が入ります</p>
+                    <p>宮城県、東北の厳選したお酒を取り揃えるEBISU LIQUOR「えびす酒店」。日本酒やワイン、クラフトビールなど、お気に入りの逸品との出会いを楽しんで。</p>
                     <div class="btn-area">
                         <a href="" class="btn">えびす酒店はこちら</a>
                     </div>
