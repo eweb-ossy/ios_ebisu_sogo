@@ -1,0 +1,145 @@
+@import "include/reset";
+@import "include/common";
+@import "include/animation";
+@import "include/nav";
+@import "include/contact";
+@import "include/footer";
+
+.mv {
+    @include mq(tb) {
+        margin-top: 60px;
+    }
+    .privacypolicy-header {
+        height: 300px;
+        padding: 120px 70px 0;
+        @include mq(tb) {
+            height: auto;
+            padding: 10vw 8vw;
+        }
+        h1 {
+            font-size: 44px;
+            font-weight: 600;
+            @include mq(tb) {
+                font-size: 6.5vw;
+            }
+            span {
+                display: block;
+                font-size: 18px;
+                margin-top: 2em;
+                padding-left: 2.5em;
+                position: relative;
+                line-height: 1;
+                @include mq(tb) {
+                    font-size: 2.24vw;
+                    margin-bottom: 3em;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    width: 35px;
+                    height: 2px;
+                    background-color: #d34c31;
+                    @include mq(sp) {
+                        width: 27px;
+                    }
+                }
+            }
+        }
+    }
+    .breadcrumblist {
+        @include mq(tb) {
+            display: none;
+        }
+        ul {
+            display: flex;
+            padding: 20px 0 20px 70px;
+            li {
+                list-style-type: none;
+                &:not(:last-child) {
+                    margin-right: 3em;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 8px;
+                        right: -1.5em;
+                        width: 6px;
+                        height: 9px;
+                        mask-image: url('../images/icon_arrow2.svg');
+                        mask-repeat: no-repeat;
+                        mask-size: contain;
+                        mask-position: center;
+                        background-color: #000;
+                    }
+                }
+                a {
+                    font-size: 12px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+}
+
+// section privacy policy
+section.privacypolicy {
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        padding: 120px 0 200px;
+        @include mq(tb) {
+            width: 100vw;
+            padding: 8vw;
+        }
+        h2 {
+            font-size: 26px;
+            font-weight: 600;
+            width: 100%;
+            padding: 0 0 .5em 1.5em;
+            border-bottom: 1px solid #000;
+            position: relative;
+            @include mq(tb) {
+                font-size: 3.84vw;
+            }
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            &:nth-of-type(1)::before {
+                content: '1.';
+            }
+            &:nth-of-type(2)::before {
+                content: '2.';
+            }
+            &:nth-of-type(3)::before {
+                content: '3.';
+            }
+            &:nth-of-type(4)::before {
+                content: '4.';
+            }
+            &:nth-of-type(5)::before {
+                content: '5.';
+            }
+            &:nth-of-type(6)::before {
+                content: '6.';
+            }
+            &:nth-of-type(7)::before {
+                content: '7.';
+            }
+            &:nth-of-type(8)::before {
+                content: '8.';
+            }
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            padding: 1em 0 3em;
+            @include mq(tb) {
+                font-size: 2.36vw;
+            }
+        }
+    }
+}

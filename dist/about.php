@@ -23,8 +23,8 @@
         </div>
         <div class="breadcrumblist">
             <ul>
-                <li><a href="">TOP</a></li>
-                <li><a href="">ゑびすグループについて</a></li>
+                <li><a href="/">TOP</a></li>
+                <li><a href="about.html">ゑびすグループについて</a></li>
             </ul>
         </div>
         <picture class="about-img">

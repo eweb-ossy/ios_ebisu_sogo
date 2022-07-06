@@ -2,4 +2,5 @@
   
 ## プレビュー
 [TOP](https://eweb-ossy.github.io/ios_ebisu_sogo/dist/)  
-[about](https://eweb-ossy.github.io/ios_ebisu_sogo/dist/about.html)  
+[ゑびすグループについて](https://eweb-ossy.github.io/ios_ebisu_sogo/dist/about.html)  
+[プライバシーポリシー](https://eweb-ossy.github.io/ios_ebisu_sogo/dist/privacypolicy.html)  
