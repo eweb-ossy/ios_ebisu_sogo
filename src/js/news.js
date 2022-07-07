@@ -29,6 +29,9 @@ $('.footer').on('inview', function(event, isInView) {
 
 // news tabs
 function tabsClose() {
+    if (windowWidth > 1439) {
+        return;
+    }
     $('.tab-item:not(:first-child)').fadeOut();
     setTimeout(() => {
         $('.tab-item:first-child').removeClass('on');
@@ -39,9 +42,7 @@ $(document).on('mouseenter click', '.tab-item:first-child', function() {
     $(this).addClass('on');
 });
 $('.news-tab').on('mouseleave', function() {
-    if (windowWidth > 1439) {
-        tabsClose();
-    }
+    tabsClose();
 });
 $(document).on('click', '.tab-item:not(:first-child)', function() {
     tabsClose();
