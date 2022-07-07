@@ -767,8 +767,6 @@
             }
         }
         .inner {
-            font-family: 'Noto Sans JP', sans-serif;
-            // margin-bottom: 50px;
             .news-block {
                 width: 100%;
                 display: block;
@@ -808,13 +806,13 @@
                 }
                 .news-date {
                     font-size: 17px;
-                    font-weight: 300;
+                    font-weight: 400;
                     margin-right: 2em;
                     line-height: 1;
                 }
                 .news-tag {
                     font-size: 14px;
-                    font-weight: 300;
+                    font-weight: 400;
                     padding-left: 3em;
                     position: relative;
                     &::before {
@@ -825,28 +823,28 @@
                         color: #231815;
                     }
                 }
-                .news-tag.group {
-                    color: #4d4d4d;
-                }
-                .news-tag.daichi {
-                    color: $color_daichi;
-                }
-                .news-tag.factory {
-                    color: $color_factory;
-                }
-                .news-tag.deli {
-                    color: $color_deli;
-                }
-                .news-tag.dining {
-                    color: $color_dining;
-                }
-                .news-tag.liquor {
-                    color: $color_liquor;
-                }
+            }
+            .group.news-block .news-tag {
+                color: #8f8f8f;
+            }
+            .daichi.news-block .news-tag {
+                color: $color_daichi;
+            }
+            .factory.news-block .news-tag {
+                color: $color_factory;
+            }
+            .deli.news-block .news-tag {
+                color: $color_deli;
+            }
+            .dining.news-block .news-tag {
+                color: $color_dining;
+            }
+            .liquor.news-block .news-tag {
+                color: $color_liquor;
             }
             .news-body {
                 font-size: 17px;
-                font-weight: 300;
+                font-weight: 400;
                 margin-top: 1em;
                 line-height: 1.5;
             }

@@ -203,19 +203,19 @@
         <div class="wrap">
             <h2>お知らせ<span>NEWS</span></h2>
             <div class="inner">
-                <a class="news-block" href="">
+                <a class="news-block group" href="">
                     <div class="news-date">2022.00.00</div>
-                    <div class="news-tag group">EBISU GROUP</div>
+                    <div class="news-tag">EBISU GROUP</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block" href="">
+                <a class="news-block daichi" href="">
                     <div class="news-date">2022.00.00</div>
-                    <div class="news-tag daichi">EBISU MEAT DAICHI</div>
+                    <div class="news-tag">EBISU MEAT DAICHI</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block" href="">
+                <a class="news-block factory" href="">
                     <div class="news-date">2022.00.00</div>
-                    <div class="news-tag factory">EBISU FOOD FACTORY</div>
+                    <div class="news-tag">EBISU FOOD FACTORY</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
             </div>
