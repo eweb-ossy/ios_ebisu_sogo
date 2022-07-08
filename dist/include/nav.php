@@ -31,9 +31,9 @@
             <div class="menu-main">
                 <ul>
                     <li><a href="about.html">ゑびすグループについて<span>About EBISU Group</span></a></li>
-                    <li><a href="">お知らせ<span>News</span></a></li>
-                    <li><a href="">採用情報<span>Recruit</span></a></li>
-                    <li><a href="">お問い合わせ<span>Contact</span></a></li>
+                    <li><a href="news.html">お知らせ<span>News</span></a></li>
+                    <!-- <li><a href="">採用情報<span>Recruit</span></a></li> -->
+                    <li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
                     <li><a href="privacypolicy.html">プライバシーポリシー</a></li>
                 </ul>
             </div>

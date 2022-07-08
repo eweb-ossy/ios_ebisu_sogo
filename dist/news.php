@@ -102,3 +102,4 @@
     <?php require('include/footer.php'); ?>
     <script src="js/news.js?<?= time() ?>"></script>
 </body>
+</html>

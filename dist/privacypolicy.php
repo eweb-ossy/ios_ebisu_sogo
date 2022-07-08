@@ -45,3 +45,4 @@
     <?php require('include/footer.php'); ?>
     <script src="js/privacypolicy.js?<?= time() ?>"></script>
 </body>
+</html>

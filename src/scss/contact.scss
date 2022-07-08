@@ -1,0 +1,310 @@
+@import "include/reset";
+@import "include/common";
+@import "include/animation";
+@import "include/nav";
+@import "include/contact";
+@import "include/footer";
+
+.mv {
+    @include mq(tb) {
+        margin-top: 60px;
+    }
+    .contact-header {
+        height: 300px;
+        padding: 120px 70px 0;
+        @include mq(tb) {
+            height: auto;
+            padding: 10vw 8vw;
+        }
+        h1 {
+            font-size: 44px;
+            font-weight: 600;
+            @include mq(tb) {
+                font-size: 6.5vw;
+            }
+            span {
+                display: block;
+                font-size: 18px;
+                margin-top: 2em;
+                padding-left: 2.5em;
+                position: relative;
+                line-height: 1;
+                @include mq(tb) {
+                    font-size: 2.24vw;
+                    margin-bottom: 3em;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    width: 35px;
+                    height: 2px;
+                    background-color: #d34c31;
+                    @include mq(sp) {
+                        width: 27px;
+                    }
+                }
+            }
+        }
+    }
+    .breadcrumblist {
+        @include mq(tb) {
+            display: none;
+        }
+        ul {
+            display: flex;
+            padding: 20px 0 20px 70px;
+            li {
+                list-style-type: none;
+                &:not(:last-child) {
+                    margin-right: 3em;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 8px;
+                        right: -1.5em;
+                        width: 6px;
+                        height: 9px;
+                        mask-image: url('../images/icon_arrow2.svg');
+                        mask-repeat: no-repeat;
+                        mask-size: contain;
+                        mask-position: center;
+                        background-color: #000;
+                    }
+                }
+                a {
+                    font-size: 12px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+}
+
+// section contact 
+section.contact {
+    p.contact-info {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin: 3em 0;
+        @include mq(tb) {
+            padding: 0 8vw;
+            text-align: left;
+        }
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto 200px;
+        padding: 120px;
+        background-color: #ececec;
+        @include mq(tb) {
+            width: 100vw;
+            padding: 8vw;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 45px;
+            @include mq(tb) {
+                display: block;
+            }
+            &.up {
+                align-items: flex-start;
+            }
+            .title {
+                width: 250px;
+                font-size: 17px;
+                font-weight: 600;
+                color: #000;
+                padding: .8em 0;
+                span {
+                    color: #e73828;
+                }
+            }
+            .field {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                width: 600px;
+                position: relative;
+                @include mq(tb) {
+                    width: 100%;
+                }
+                input {
+                    width: 100%;
+                    background-color: #fff;
+                    border-radius: 4px;
+                    font-size: 17px;
+                    font-weight: 600;
+                    padding: .8em 2em;
+                    @include mq(tb) {
+                        padding: .8em;
+                    }
+                    &::placeholder {
+                        color: #a3a3a3;
+                    }
+                    &.short {
+                        width: 150px;
+                        text-align: center;
+                        margin-right: 50px;
+                        @include mq(tb) {
+                            width: calc((100vw - 16vw - 100px) / 3);
+                        }
+                        &.l {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+                .input-wrap {
+                    width: 150px;
+                    margin-right: 50px;
+                    position: relative;
+                    @include mq(tb) {
+                        width: calc((100vw - 16vw - 100px) / 3);
+                    }
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 18px;
+                        height: 1px;
+                        background-color: #000;
+                        top: 50%;
+                        right: -35px;
+                        transform: translate(0, -50%);
+                    }
+                }
+                .zip-btn {
+                    padding: .8em 1em;
+                    background-color: #000;
+                    color: #fff;
+                    font-size: 17px;
+                    font-weight: 600;
+                    user-select: none;
+                    cursor: pointer;
+                    @include mq(tb) {
+                        position: absolute;
+                        width: calc((100vw - 16vw - 100px) / 3 * 2 + 50px);
+                        top: 60px;
+                        left: 0;
+                    }
+                }
+                .select-wrap {
+                    width: 200px;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 8px;
+                        height: 16px;
+                        mask-image: url('../images/icon_arrow2.svg');
+                        mask-repeat: no-repeat;
+                        mask-size: contain;
+                        background-color: #000;
+                        right: 2em;
+                        top: 1em;
+                        transform: rotate(90deg);
+                    }
+                    select {
+                        width: 200px;
+                        background-color: #fff;
+                        border-radius: 4px;
+                        font-size: 17px;
+                        font-weight: 600;
+                        padding: .8em 2em;
+                        color: #a3a3a3;
+                        @include mq(tb) {
+                            padding: .8em;
+                        }
+                        &::placeholder {
+                            color: #a3a3a3;
+                        }
+                    }
+                }
+                textarea {
+                    width: 100%;
+                    height: 220px;
+                    background-color: #fff;
+                    border-radius: 4px;
+                    font-size: 17px;
+                    font-weight: 600;
+                    padding: .8em 2em;
+                    @include mq(tb) {
+                        padding: .8em;
+                    }
+                    &::placeholder {
+                        color: #a3a3a3;
+                    }
+                }
+            }
+            @include mq(tb) {
+                .pref {
+                    padding-top: 60px;
+                }
+            }
+        }
+        .privacypolicy {
+            width: 100%;
+            text-align: center;
+            padding: 60px 0;
+            a {
+                font-size: 17px;
+                font-weight: 600;
+                color: #000;
+                display: inline-block;
+                padding: 0 2em .5em 0;
+                border-bottom: 1px solid #000;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 17px;
+                    height: 24px;
+                    top: 6px;
+                    right: 0;
+                    mask-image: url('../images/icon_arrow.svg');
+                    mask-repeat: no-repeat;
+                    mask-size: contain;
+                    background-color: #000;
+                }
+            }
+        }
+        .submit-btn {
+            width: 100%;
+            text-align: center;
+            button {
+                font-size: 14px;
+                color: #000;
+                padding: 1em 5em 1em 2em;
+                background-color: #fff;
+                border: 1px solid #000;
+                border-radius: 30px;
+                position: relative;
+                transition: 1s;
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                    &::after {
+                        background-color: #fff;
+                    }
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 17px;
+                    height: 24px;
+                    top: 1.2em;
+                    right: 2em;
+                    mask-image: url('../images/icon_arrow.svg');
+                    mask-repeat: no-repeat;
+                    mask-size: contain;
+                    background-color: #000;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+}
