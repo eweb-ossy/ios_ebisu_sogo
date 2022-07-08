@@ -29,55 +29,55 @@
                 <li class="tab-item factory">EBISU <br>FOOD <br>FACTORY</li>
                 <li class="tab-item deli">EBISU <br>DELI</li>
                 <li class="tab-item dining">EBISU <br>DINING</li>
-                <li class="tab-item liquar">EBISU <br>LIQUAR</li>
+                <li class="tab-item liquor">EBISU <br>LIQUOR</li>
             </ul>
             <div class="news-list">
-                <a class="news-block group" href="">
+                <a class="news-block group" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU GROUP</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block daichi" href="">
+                <a class="news-block daichi" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU MEAT DAICHI</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block factory" href="">
+                <a class="news-block factory" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU FOOD FACTORY</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block group" href="">
+                <a class="news-block group" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU GROUP</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block daichi" href="">
+                <a class="news-block daichi" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU MEAT DAICHI</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block factory" href="">
+                <a class="news-block factory" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU FOOD FACTORY</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block group" href="">
+                <a class="news-block group" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU GROUP</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block daichi" href="">
+                <a class="news-block daichi" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU MEAT DAICHI</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block factory" href="">
+                <a class="news-block factory" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU FOOD FACTORY</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>
                 </a>
-                <a class="news-block group" href="">
+                <a class="news-block group" href="news_detail.html">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-tag">EBISU GROUP</div>
                     <div class="news-body">この文章はダミーですお知らせが入りますこの文章はダミーですお知らせが入ります</div>

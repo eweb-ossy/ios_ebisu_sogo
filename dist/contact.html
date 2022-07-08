@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>お問い合わせ｜ゑびすグループ「満てん」「ゑびす」「牛粋」「ぶたと和いん」宮城県の飲食店グループ</title>
-    <link rel="stylesheet" href="css/contact.css?1657250992">
+    <link rel="stylesheet" href="css/contact.css?1657253805">
 </head>
 <body>
     <nav class="nav">
@@ -122,9 +122,9 @@
                     <div class="title">郵便番号</div>
                     <div class="field">
                         <div class="input-wrap">
-                            <input class="short" type="text" name="zipcode1" placeholder="000">
+                            <input id="zipcode1" class="short" type="text" placeholder="000">
                         </div>
-                        <input class="short l" type="text" name="zipcode2" placeholder="000">
+                        <input id="zipcode2" class="short l" type="text" placeholder="000">
                         <div id="getAddress" class="zip-btn">郵便番号から住所を入力</div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                     <div class="title pref">都道府県</div>
                     <div class="field">
                         <div class="select-wrap">
-                            <select id="pref_name" name="pref_name">
+                            <select id="pref_name">
                                 <option value="北海道">北海道</option>
                                 <option value="青森県">青森県</option>
                                 <option value="岩手県">岩手県</option>
@@ -187,17 +187,17 @@
                 <div class="row">
                     <div class="title">ご住所</div>
                     <div class="field">
-                        <input id="address" type="text" name="address" placeholder="〇〇市〇〇町0-00-0">
+                        <input id="address" type="text" placeholder="〇〇市〇〇町0-00-0">
                     </div>
                 </div>
                 <div class="row up">
                     <div class="title">お問い合わせ内容<span>【必須】</span></div>
                     <div class="field">
-                        <textarea name="" placeholder="お問い合わせ内容をご入力ください。" required></textarea>
+                        <textarea placeholder="お問い合わせ内容をご入力ください。" required></textarea>
                     </div>
                 </div>
                 <div class="privacypolicy">
-                    <a href="">個人情報保護方針(プライバシーポリシー)はこちら</a>
+                    <a href="privacypolicy.html">個人情報保護方針(プライバシーポリシー)はこちら</a>
                 </div>
                 <div class="submit-btn">
                     <button type="submit">個人情報保護方針に同意して送信する</button>
@@ -299,6 +299,6 @@
     </div>
     <div class="footer-bg-map"><img src="images/footer_map.svg" loading="lazy" alt="宮城県地図"></div>
 </footer>
-<div class="copylight">&copy; EBISU Group</div>    <script src="js/contact.js?1657250992"></script>
+<div class="copylight">&copy; EBISU Group</div>    <script src="js/contact.js?1657253805"></script>
 </body>
 </html>

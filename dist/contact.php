@@ -1,6 +1,3 @@
-<?php 
-// header("Set-Cookie: cross-site-cookie=whatever; SameSite=None; Secure");
-?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -69,9 +66,9 @@
                     <div class="title">郵便番号</div>
                     <div class="field">
                         <div class="input-wrap">
-                            <input class="short" type="text" name="zipcode1" placeholder="000">
+                            <input id="zipcode1" class="short" type="text" placeholder="000">
                         </div>
-                        <input class="short l" type="text" name="zipcode2" placeholder="000">
+                        <input id="zipcode2" class="short l" type="text" placeholder="000">
                         <div id="getAddress" class="zip-btn">郵便番号から住所を入力</div>
                     </div>
                 </div>
@@ -79,7 +76,7 @@
                     <div class="title pref">都道府県</div>
                     <div class="field">
                         <div class="select-wrap">
-                            <select id="pref_name" name="pref_name">
+                            <select id="pref_name">
                                 <option value="北海道">北海道</option>
                                 <option value="青森県">青森県</option>
                                 <option value="岩手県">岩手県</option>
@@ -134,17 +131,17 @@
                 <div class="row">
                     <div class="title">ご住所</div>
                     <div class="field">
-                        <input id="address" type="text" name="address" placeholder="〇〇市〇〇町0-00-0">
+                        <input id="address" type="text" placeholder="〇〇市〇〇町0-00-0">
                     </div>
                 </div>
                 <div class="row up">
                     <div class="title">お問い合わせ内容<span>【必須】</span></div>
                     <div class="field">
-                        <textarea name="" placeholder="お問い合わせ内容をご入力ください。" required></textarea>
+                        <textarea placeholder="お問い合わせ内容をご入力ください。" required></textarea>
                     </div>
                 </div>
                 <div class="privacypolicy">
-                    <a href="">個人情報保護方針(プライバシーポリシー)はこちら</a>
+                    <a href="privacypolicy.html">個人情報保護方針(プライバシーポリシー)はこちら</a>
                 </div>
                 <div class="submit-btn">
                     <button type="submit">個人情報保護方針に同意して送信する</button>

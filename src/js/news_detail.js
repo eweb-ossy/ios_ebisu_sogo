@@ -26,22 +26,3 @@ $('.footer').on('inview', function(event, isInView) {
         $('.nav').removeClass('hide');
     }
 });
-
-$('#getAddress').on('click', function() {
-    let zipcode1 = $('#zipcode1').val();
-    let zipcode2 = $('#zipcode2').val();
-    let zipcode = zipcode1 + zipcode2;
-    if (zipcode.length === 7) {
-        $.ajax({
-            url: 'https://zipcloud.ibsnet.co.jp/api/search',
-            data: {
-                zipcode: zipcode
-            },
-            dataType: "jsonp",
-        })
-        .done(function(data) {
-            $('#pref_name').val(data.results[0].address1);
-            $('#address').val(data.results[0].address2+data.results[0].address3);
-        })
-    }
-});
