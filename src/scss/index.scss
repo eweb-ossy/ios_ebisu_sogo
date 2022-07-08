@@ -521,7 +521,7 @@
                             content: '';
                             width: 17px;
                             height: 25px;
-                            mask-image: url('../images/icon_arrow.svg?sanitize=true');
+                            mask-image: url('../images/icon_arrow.svg');
                             mask-repeat: no-repeat;
                             mask-size: contain;
                             background-color: #fff;
@@ -790,7 +790,7 @@
                     transform: translate(0, -50%);
                     right: 30px;
                     background-color: #231815;
-                    mask-image: url('../images/icon_arrow.svg?sanitize=true');
+                    mask-image: url('../images/icon_arrow.svg');
                     mask-repeat: no-repeat;
                     @include mq(sp) {
                         right: 10px;
@@ -880,7 +880,7 @@
                     transform: translate(0, -50%);
                     right: 20px;
                     background-color: #231815;
-                    mask-image: url('../images/icon_arrow.svg?sanitize=true');
+                    mask-image: url('../images/icon_arrow.svg');
                     mask-repeat: no-repeat;
                     transition: 1s;
                 }
