@@ -1,8 +1,8 @@
 <footer class="footer">
     <div class="top-border"></div>
-    <div class="footer-bg-img">
-        <img src="images/footer_bg_photo.jpg" loading="lazy" alt="">
-    </div>
+    <picture class="footer-bg-img">
+        <img src="images/footer_bg_photo_sp.jpg" loading="lazy" alt="">
+    </picture>
     <div class="bottom-border"></div>
     <div class="footer-logo ">健康と、おいしさで、笑顔がつづく。<span>EBISU GROUP</span></div>
     <div class="footer-info">
