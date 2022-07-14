@@ -26,10 +26,8 @@
         <div class="inner">
             <form action="">
                 <div class="row">
-                    <!-- 17px b 000 e73828 -->
                     <div class="title">お名前<span>【必須】</span></div>
                     <div class="field">
-                        <!-- 17px b a3a3a3 -->
                         <input type="text" placeholder="山田 太郎" required>
                     </div>
                 </div>
