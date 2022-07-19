@@ -70,6 +70,9 @@
         <div class="slide">
             <img src="images/top_info_slider_photo_10.png" loading="lazy" alt="">
         </div>
+        <div class="slide">
+            <img src="images/top_info_slider_photo_02.png" loading="lazy" alt="">
+        </div>
     </section>
     <section class="info-text">
         <div class="wrap">
