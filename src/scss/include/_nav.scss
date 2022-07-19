@@ -51,6 +51,10 @@
                 cursor: pointer;
                 font-size: 13px;
                 font-weight: 500;
+                @include mq(tb) {
+                    font-size: 2.67vw;
+                    font-size: clamp( 10px, 2.67vw, 13px );
+                }
                 span {
                     position: absolute;
                     left: 0;
@@ -147,6 +151,7 @@
                 height: 94px;
                 background-color: #fff;
                 transition: .3s;
+                font-size: 13px;
                 @include mq(pc) {
                     &:hover {
                         background-color: #dadada;
@@ -154,6 +159,8 @@
                 }
                 @include mq(tb) {
                     height: 60px;
+                    font-size: 2.67vw;
+                    font-size: clamp( 10px, 2.67vw, 13px );
                 }
                 img {
                     width: 60px;
@@ -201,17 +208,25 @@
                 @include mq(tb) {
                    width: 100vw;
                    height: auto;
-                   padding: 20px 40px;
+                   padding: 4vw 8vw;
                    border-top: none;
                 }
                 .title {
                     font-size: 16px;
                     font-weight: 700;
                     margin-bottom: 1em;
+                    @include mq(tb) {
+                        font-size: 3.2vw;
+                        font-size: clamp( 12px, 3.2vw, 16px );
+                    }
                 }
                 p {
                     font-size: 16px;
                     font-weight: 300;
+                    @include mq(tb) {
+                        font-size: 3.2vw;
+                        font-size: clamp( 12px, 3.2vw, 16px );
+                    }
                 }
             }
             .menu-main {
@@ -220,32 +235,44 @@
                 ul {
                     padding: 70px;
                     @include mq(tb) {
-                        padding: 20px 40px;
+                        padding: 4vw 8vw
                     }
                     li {
                         width: 100%;
                         margin-bottom: 60px;
                         @include mq(tb) {
-                            margin-bottom: 0;
+                            margin-bottom: 8vw;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
                         }
                         a {
                             display: block;
                             width: 100%;
                             font-size: 25px;
                             font-weight: 700;
+                            @include mq(tb) {
+                                font-size: 4.8vw;
+                                font-size: clamp( 18px, 4.8vw, 25px );
+                            }
                             span {
                                 display: block;
                                 font-size: 12px;
                                 margin-top: .8em;
                                 @include mq(tb) {
-                                    margin-top: 0;
+                                    font-size: 2.66vw;
+                                    font-size: clamp( 10px, 2.66vw, 12px );
                                     margin-bottom: 1em;
                                 }
                             }
                         }
                         &:last-child a {
                             font-size: 16px;
-                            font-weight: 300;
+                            font-weight: 400;
+                            @include mq(tb) {
+                                font-size: 3.73vw;
+                                font-size: clamp( 14px, 3.73vw, 16px );
+                            }
                         }
                     }
                 }
@@ -254,12 +281,16 @@
                 background-color: #f6f6f6;
                 padding: 70px;
                 @include mq(tb) {
-                    padding: 20px 40px;
+                    padding: 4vw 8vw;
                 }
                 .title {
                     font-size: 12px;
                     font-weight: 700;
                     margin-bottom: 20px;
+                    @include mq(tb) {
+                        font-size: 3.2vw;
+                        font-size: clamp( 12px, 3.73vw, 12px );
+                    }
                 }
                 ul {
                     padding: 0 70px;
@@ -267,10 +298,10 @@
                         padding: 0;
                         display: grid;
                         grid-template-columns: repeat(2,1fr);
-                        grid-gap: 20px 20px;
+                        grid-gap: 8vw 8vw;
                     }
                     @include mq(sp) {
-                        grid-gap: 0 20px;
+                        grid-gap: 2vw 8vw;
                     }
                     li {
                         margin-bottom: 50px;
@@ -284,6 +315,10 @@
                             display: block;
                             font-size: 10px;
                             font-weight: 700;
+                            @include mq(tb) {
+                                font-size: 1.87vw;
+                                font-size: clamp( 7px, 1.87vw, 10px );
+                            }
                             span {
                                 margin-top: 10px;
                                 width: 140px;
@@ -295,8 +330,8 @@
                                 background-repeat: no-repeat;
                                 background-size: contain;
                                 @include mq(tb) {
-                                    width: calc((100vw - 80px) / 2);
-                                    height: calc((100vw - 80px) / 2 * 0.535);
+                                    width: calc((100vw - 24vw) / 2);
+                                    height: calc((100vw - 24vw) / 2 * 0.535);
                                     max-height: 75px;
                                 }
                             }
