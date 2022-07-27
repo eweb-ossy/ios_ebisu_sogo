@@ -4,9 +4,11 @@
 // font-family: 'Shippori Mincho B1', serif;
 
 $breakpoints: (
-    'pc': 'screen and (min-width: 1440px)',
-    'tb': 'screen and (max-width: 1439px)',
-    'sp': 'screen and (max-width: 999px)',
+    // 'pc': 'screen and (min-width: 1440px)',
+    'pc': 'screen and (min-width: 1000px)',
+    // 'tb': 'screen and (max-width: 1439px)',
+    'tb': 'screen and (max-width: 999px)',
+    'sp': 'screen and (max-width: 599px)',
 ) !default;
 @mixin mq($breakpoint) {
     @media #{map-get($breakpoints, $breakpoint)} {
